@@ -13,7 +13,7 @@ public class DeamonThread {
                 }
             }
         });
-//         thread.setDaemon(true); // 将thread设置为守护线程
+         thread.setDaemon(true); // 将thread设置为守护线程
 
         thread.start(); //启动Thread线程
         Thread.sleep(2_000L);
